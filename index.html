@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <p b-text="msg">123</p>
+        <p b-html="html">123</p>
+    </div>
+
+<script src="src/compile.js"></script>
+<script src="src/index.js"></script>
+<script>
+    // import Bbq from './src/index'
+    new Bbq({
+        el: '#app',
+        data: {
+            msg: 'sdasda',
+            html: '<h3>标题</h3>'
+        }
+    })
+</script>
+</body>
+</html>
