@@ -1,4 +1,4 @@
-// import Compile from './compile'
+import Compile from './compile'
 class Bbq {
 
     constructor (options) {
@@ -14,4 +14,4 @@ class Bbq {
     }
 }
 
-// export default Bbq
+export default Bbq

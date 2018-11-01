@@ -95,4 +95,4 @@ class Compile {
     }
 }
 
-// export default Compile
+export default Compile
